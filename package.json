@@ -1,6 +1,6 @@
 {
   "name": "email-body-cleaner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get clean ( latest ) message from email body tree",
   "repository": {
     "type": "git",
