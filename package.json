@@ -14,12 +14,13 @@
     "lint": "tslint --project ./",
     "pretest": "tsc",
     "prepublishOnly": "npm run build",
+    "preversion": "npm run lint",
     "version" : "git add -A src",
     "postversion": "git push && git push --tags"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && npm run lint"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
