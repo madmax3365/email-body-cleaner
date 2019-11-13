@@ -15,7 +15,7 @@ export const RegexpHelper: IRegexpHelper = {
   },
 
   get time(): string {
-    return '\\d{2}:\\d{2}';
+    return '(\\d{2}|\\d{1}):(\\d{2}|\\d{1})';
   },
 
   get date(): string {
